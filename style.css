@@ -5,6 +5,58 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+/* Body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff8f0; /* soft gold feel */
+  color: #333;
+}
+
+/* Container to keep everything neat */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+@media (max-width: 768px) {
+
+/* Navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  flex-direction: column;
+  text-align: center;
+  background: linear-gradient(to right, #d4af37, #f5e6a3);
+}
+
+/* Buttons */
+.btn {
+  padding: 10px 15px;
+  background-color: #d4af37; /* gold */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+/* Cards (like products or recipes) */
+.cards {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.card {
+  flex: 1;
+  padding: 15px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);  
+}
+
 /* HEADER */
 header {
     text-align: center;
